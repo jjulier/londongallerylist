@@ -44,7 +44,6 @@
 body {
   margin: 0 auto;
   font-family: 'Work Sans', sans-serif;
-  /*font-size: 28px;*/
   /*line-height: 1.5;*/
   color: black;
   max-width: 700px;
@@ -55,14 +54,6 @@ body {
 
 
 
-li{
-  margin: 0 0 10px 0;
-}
-
-ol{
-  font-size: 19px;
-  line-height: 1.5;
-}
 
 p{
   font-size: 19px;
@@ -76,6 +67,25 @@ h2{
 h1{
   font-size: 40px
 }
+
+
+@media (max-width: 500px) {
+
+  p{
+    font-size:15px;
+  }
+
+h1{
+  font-size:30px;
+}
+
+h2{
+  font-size:22px;
+}
+
+
+}
+
 
 a:link {
     text-decoration: none;
